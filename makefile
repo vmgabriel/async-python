@@ -50,7 +50,7 @@ install-dev:
 	make load && ./venv/bin/pip install -r requirements/development.txt
 
 
-install-prod:
+install-test:
 	pip install -r requirements/test.txt
 
 
